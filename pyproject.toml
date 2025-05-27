@@ -1,0 +1,15 @@
+[project]
+name = "plmeae"
+version = "0.1.0"
+description = "Integrating Protein Language Models and Automatic Biofoundry for Enhanced Protein Evolution"
+authors = [
+    { name = "zju-wyh", email = "qiang.zhang.cs@zju.edu.cn"}]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fairseq>=0.12.2",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "scipy>=1.15.3",
+    "torch>=2.7.0",
+]
